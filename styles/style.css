@@ -47,7 +47,7 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
@@ -64,6 +64,8 @@ footer {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    
+    
 }
 
 .gutter-right {
@@ -93,4 +95,41 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+  
+
+.allsm {
+    width: 20px;
+    height: auto;
+    margin: 2px;
+}
+
+.forknknife {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.delicious-logo {
+    display: flex;
+    align-items: center;
+   
+}
+
+.slogan {
+    height: 100px;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+
+.social-media-links {
+    align-items: center;
+    display: flex;
+    margin: 5px;
+    
+}
+
+
+
 
