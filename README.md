@@ -18,9 +18,9 @@ Data Modeling:
         - slogan text 
         - button/images
 
-*add div border (gray)
+*add div border (gray dashed image)
 
-##Body
+##Main
     - Title (section 1)
         - title
         - date
@@ -36,8 +36,8 @@ Data Modeling:
         - author's name
         - author description
         - add "share receipt" button
-        
-*add div border(gray)
+
+*add div border(gray dashed image)
 
 ##Footer
     - horizontal line with image in middle
