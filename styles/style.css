@@ -39,6 +39,9 @@ header {
     height: var(--header-height);
 }
 
+section {
+    margin: 20px;
+}
 footer {
     display: flex;
     justify-content: flex-end;
@@ -93,7 +96,7 @@ footer {
 }
 
 .content {
-    width: 1000px;
+    width: 900px;
 }
 
 .recipe {
@@ -118,15 +121,16 @@ footer {
 .title-sub-header {
     display: flex;
     justify-content: space-between;
+    width: 900px;
 }
 
 .ingredients {
     display: flex;
     background-image: url('../assets/list-bg.png');
-    background-repeat: no-repeat;
     height: 300px;
     justify-content: center;
-    align-content: space-between;
+    align-content: center;
+    width: 900px;
 }
 
 ul {
@@ -135,9 +139,14 @@ ul {
     margin: 50px;
 }
 
+li {
+    list-style-type: none; 
+}
+
 .author {
     display: flex;
     justify-content: space-between;
+    width:900px;
 }
 
 .author-info {
